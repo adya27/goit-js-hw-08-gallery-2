@@ -154,7 +154,6 @@ body.modal-is-open {
   background-image: url("../images/to-left.svg");
 }
 
-.lightbox__button:hover,
-.lightbox__button:focus {
+.lightbox__button:hover {
   background-color: rgba(0, 0, 0, 0.5);
 }

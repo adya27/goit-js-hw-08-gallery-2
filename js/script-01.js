@@ -64,6 +64,7 @@ function appendGalleryMarkup(gallery) {
 
 function onClickCloseBtnItem() {
   lightboxItem.classList.remove("is-open");
+  bodyItem.classList.remove("modal-is-open");
 
   modalItem.textContent = "";
 }
